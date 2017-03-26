@@ -114,6 +114,6 @@ public static ArraySegment<T> Segment<T>(this IArrayLease<T> lease, int offset, 
 ## Feedback
 Please provide any feedback, comments, or issues to this GitHub project [here][issues].
 
-[issues]: https://github.com/NCodeGroup/NCode.ArrayPoolLeases/issues
+[issues]: https://github.com/NCodeGroup/NCode.ArrayLeases/issues
 [ArrayPool]: https://github.com/dotnet/corefx/issues/4547
 [System.Buffers]: https://www.nuget.org/packages/System.Buffers
