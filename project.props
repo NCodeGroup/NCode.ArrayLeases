@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<!--
+		https://docs.microsoft.com/en-us/nuget/schema/msbuild-targets
+		-->
+
+		<PackageId Condition="'$(PackageId)'==''">NCode.ArrayLeases</PackageId>
+		<Title Condition="'$(Title)'==''">ArrayPool Leases</Title>
+		<Description Condition="'$(Description)'==''">Provides IDisposable leases for Microsoft's ArrayPool class from the System.Buffers package.</Description>
+
+		<PackageProjectUrl Condition="'$(PackageProjectUrl)'==''">https://github.com/NCodeGroup/NCode.ArrayLeases.git</PackageProjectUrl>
+		<PackageLicenseUrl Condition="'$(PackageLicenseUrl)'==''">https://raw.githubusercontent.com/NCodeGroup/NCode.ArrayLeases/master/LICENSE.txt</PackageLicenseUrl>
+		<PackageIconUrl Condition="'$(PackageIconUrl)'==''">https://raw.githubusercontent.com/NCodeGroup/NCode.ArrayLeases/master/NCodeGroup.png</PackageIconUrl>
+
+		<PackageTags Condition="'$(PackageTags)'==''">Buffer ArrayPool IDisposable Rent Lease</PackageTags>
+		<PackageReleaseNotes Condition="'$(PackageReleaseNotes)'==''"></PackageReleaseNotes>
+
+		<PackageRequireLicenseAcceptance Condition="'$(PackageRequireLicenseAcceptance)'==''">False</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="..\LICENSE.txt">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+	</ItemGroup>
+
+</Project>

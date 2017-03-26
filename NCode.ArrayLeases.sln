@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCode.ArrayLeases", "NCode.ArrayLeases\NCode.ArrayLeases.csproj", "{A460FA12-9738-4E34-8955-FA7429085B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCode.ArrayLeases.Test", "NCode.ArrayLeases.Test\NCode.ArrayLeases.Test.csproj", "{CFDF9878-C7A0-45A6-90D6-0820A4619E4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FE46624-B797-4B01-92B8-4EBAA314B1A6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		common.props = common.props
+		COPYRIGHT.txt = COPYRIGHT.txt
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+		LICENSE.txt = LICENSE.txt
+		NCodeGroup.png = NCodeGroup.png
+		NCodeGroup.snk = NCodeGroup.snk
+		project.props = project.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A460FA12-9738-4E34-8955-FA7429085B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A460FA12-9738-4E34-8955-FA7429085B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A460FA12-9738-4E34-8955-FA7429085B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A460FA12-9738-4E34-8955-FA7429085B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDF9878-C7A0-45A6-90D6-0820A4619E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDF9878-C7A0-45A6-90D6-0820A4619E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDF9878-C7A0-45A6-90D6-0820A4619E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDF9878-C7A0-45A6-90D6-0820A4619E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

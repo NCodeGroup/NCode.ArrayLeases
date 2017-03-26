@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Condition="Exists('..\common.props')" Project="..\common.props" />
+	<Import Condition="Exists('..\project.props')" Project="..\project.props" />
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard1.1;net45</TargetFrameworks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Buffers" Version="4.3.0" />
+	</ItemGroup>
+
+</Project>
