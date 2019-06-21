@@ -82,7 +82,7 @@ namespace NCode.ArrayLeases
 
     protected virtual void Dispose(bool disposing)
     {
-      if (Interlocked.CompareExchange(ref _disposed, 1, 0) == 1 || !disposing) return;
+      if (Interlocked.CompareExchange(ref _disposed, 1, 0) == 1) return;
       Return(_array);
     }
 
